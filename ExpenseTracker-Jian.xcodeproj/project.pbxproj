@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE54FA8E2C323D68008AC636 /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54FA8D2C323D68008AC636 /* GroupedExpense.swift */; };
+		CE54FA902C32493C008AC636 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54FA8F2C32493C008AC636 /* AddExpenseView.swift */; };
+		CE54FA922C3274A4008AC636 /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54FA912C3274A4008AC636 /* ExpenseCardView.swift */; };
 		CE5B23292C2C2BA100D8EE53 /* ExpenseTracker_JianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B23282C2C2BA100D8EE53 /* ExpenseTracker_JianApp.swift */; };
 		CE5B232B2C2C2BA100D8EE53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B232A2C2C2BA100D8EE53 /* ContentView.swift */; };
 		CE5B232D2C2C2BA100D8EE53 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B232C2C2C2BA100D8EE53 /* Item.swift */; };
@@ -15,6 +18,11 @@
 		CE5B233C2C2C2BA600D8EE53 /* ExpenseTracker_JianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B233B2C2C2BA600D8EE53 /* ExpenseTracker_JianTests.swift */; };
 		CE5B23462C2C2BA600D8EE53 /* ExpenseTracker_JianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B23452C2C2BA600D8EE53 /* ExpenseTracker_JianUITests.swift */; };
 		CE5B23482C2C2BA600D8EE53 /* ExpenseTracker_JianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B23472C2C2BA600D8EE53 /* ExpenseTracker_JianUITestsLaunchTests.swift */; };
+		CE5B23552C2C32AE00D8EE53 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B23542C2C32AE00D8EE53 /* Extensions.swift */; };
+		CE5B23592C2C348400D8EE53 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B23582C2C348400D8EE53 /* Expense.swift */; };
+		CE5B235B2C2C351100D8EE53 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B235A2C2C351100D8EE53 /* Category.swift */; };
+		CE5B235D2C2C39B600D8EE53 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B235C2C2C39B600D8EE53 /* ExpensesView.swift */; };
+		CE5B235F2C2C3A6D00D8EE53 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B235E2C2C3A6D00D8EE53 /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE54FA8D2C323D68008AC636 /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
+		CE54FA8F2C32493C008AC636 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		CE54FA912C3274A4008AC636 /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 		CE5B23252C2C2BA100D8EE53 /* ExpenseTracker-Jian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExpenseTracker-Jian.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5B23282C2C2BA100D8EE53 /* ExpenseTracker_JianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTracker_JianApp.swift; sourceTree = "<group>"; };
 		CE5B232A2C2C2BA100D8EE53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +57,11 @@
 		CE5B23412C2C2BA600D8EE53 /* ExpenseTracker-JianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExpenseTracker-JianUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5B23452C2C2BA600D8EE53 /* ExpenseTracker_JianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTracker_JianUITests.swift; sourceTree = "<group>"; };
 		CE5B23472C2C2BA600D8EE53 /* ExpenseTracker_JianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTracker_JianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE5B23542C2C32AE00D8EE53 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE5B23582C2C348400D8EE53 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		CE5B235A2C2C351100D8EE53 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CE5B235C2C2C39B600D8EE53 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		CE5B235E2C2C3A6D00D8EE53 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +112,11 @@
 		CE5B23272C2C2BA100D8EE53 /* ExpenseTracker-Jian */ = {
 			isa = PBXGroup;
 			children = (
+				CE5B23572C2C346C00D8EE53 /* Views */,
+				CE5B23562C2C344900D8EE53 /* Models */,
 				CE5B23282C2C2BA100D8EE53 /* ExpenseTracker_JianApp.swift */,
 				CE5B232A2C2C2BA100D8EE53 /* ContentView.swift */,
+				CE5B23542C2C32AE00D8EE53 /* Extensions.swift */,
 				CE5B232C2C2C2BA100D8EE53 /* Item.swift */,
 				CE5B232E2C2C2BA600D8EE53 /* Assets.xcassets */,
 				CE5B23302C2C2BA600D8EE53 /* Preview Content */,
@@ -128,6 +147,27 @@
 				CE5B23472C2C2BA600D8EE53 /* ExpenseTracker_JianUITestsLaunchTests.swift */,
 			);
 			path = "ExpenseTracker-JianUITests";
+			sourceTree = "<group>";
+		};
+		CE5B23562C2C344900D8EE53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B23582C2C348400D8EE53 /* Expense.swift */,
+				CE5B235A2C2C351100D8EE53 /* Category.swift */,
+				CE54FA8D2C323D68008AC636 /* GroupedExpense.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE5B23572C2C346C00D8EE53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B235C2C2C39B600D8EE53 /* ExpensesView.swift */,
+				CE5B235E2C2C3A6D00D8EE53 /* CategoriesView.swift */,
+				CE54FA8F2C32493C008AC636 /* AddExpenseView.swift */,
+				CE54FA912C3274A4008AC636 /* ExpenseCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5B235F2C2C3A6D00D8EE53 /* CategoriesView.swift in Sources */,
+				CE54FA922C3274A4008AC636 /* ExpenseCardView.swift in Sources */,
+				CE5B23592C2C348400D8EE53 /* Expense.swift in Sources */,
 				CE5B232B2C2C2BA100D8EE53 /* ContentView.swift in Sources */,
 				CE5B232D2C2C2BA100D8EE53 /* Item.swift in Sources */,
+				CE5B235D2C2C39B600D8EE53 /* ExpensesView.swift in Sources */,
 				CE5B23292C2C2BA100D8EE53 /* ExpenseTracker_JianApp.swift in Sources */,
+				CE54FA8E2C323D68008AC636 /* GroupedExpense.swift in Sources */,
+				CE54FA902C32493C008AC636 /* AddExpenseView.swift in Sources */,
+				CE5B23552C2C32AE00D8EE53 /* Extensions.swift in Sources */,
+				CE5B235B2C2C351100D8EE53 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
